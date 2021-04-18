@@ -11,11 +11,15 @@
 #### Methods:
 
 1. for gender identification only, we used the following networks:
+I. 
+
       a. VGG16 : maximum of 98% accuracy on the test set and 97.89% accuracy on the training set
       b. VGG19 : maximum of 97.7% accuracy on the test set and 97.51% accuracy on the training set
       c. ResNet18 : maximum of 96.32% accuracy on the test set and 97.01% accuracy on the training set
 
 2. for the gender identification with age estimation, we used the following networks based on VGGFace:
+I.
+
       a. VGGFACE based on resnet 50 with UTKFace dataset: 
             maximum accuracy of 91.2% on the test set and 90.85% on the training set for the gender identification only and 18.5% on the test set and 17.65% on the training set for the age estimation
       b. VGGFACE based on VGG16 with Adience dataset: 
